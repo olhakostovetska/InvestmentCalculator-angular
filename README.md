@@ -3,7 +3,7 @@
 A simple investment calculator built with Angular.  
 This app allows users to calculate annual investment growth based on initial investment, annual contribution, expected return, and duration.
 
-[![Demo](https://img.shields.io/badge/Відкрити-Demo-blue?style=for-the-badge&logo=github)](https://olhakostovetska.github.io/InvestmentCalculator-angular/)
+[![Demo](https://img.shields.io/badge/Open-Demo-blue?style=for-the-badge&logo=github)](https://olhakostovetska.github.io/InvestmentCalculator-angular/)
 
 ---
 
