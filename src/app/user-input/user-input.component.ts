@@ -10,8 +10,8 @@ import { InvestmentService } from '../investment.service';
 export class UserInputComponent {
   enteredInitialInvestment = signal('0');
   enteredAnnualInvestment = signal('0');
-  enteredExpectedReturn = signal('5');
-  enteredDuration = signal('10');
+  enteredExpectedReturn = signal('0');
+  enteredDuration = signal('0');
 
   constructor(private investmentService: InvestmentService) {}
 
@@ -25,7 +25,7 @@ export class UserInputComponent {
 
     this.enteredInitialInvestment.set('0');
     this.enteredAnnualInvestment.set('0');
-    this.enteredExpectedReturn.set('5');
-    this.enteredDuration.set('10');
+    this.enteredExpectedReturn.set('0');
+    this.enteredDuration.set('0');
   }
 }
